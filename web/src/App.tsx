@@ -1,15 +1,11 @@
-import './styles/global.css';
-
-import { Habit } from "./components/Habit"
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import './App.css'
 
 function App() {
+
   return (
-    <div>
-      <Habit completed={3} />
-      <Habit completed={10} />
-      <Habit completed={20} />
-      <Habit completed={30} />
-    </div>
+    <h1>Alô galera</h1>
   )
 }
 
